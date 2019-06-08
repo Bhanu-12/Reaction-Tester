@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>reaction tester</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      background: radial-gradient(#555,#000);
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      margin: 0%;
+    }
+
+    #generation {
+      /* background-color: #f4f4f2; */
+      height: 200px;
+      width: 200px;
+      position: relative;
+    }
+
+    #bgc {
+      height: 586px;
+      width: 1550px;
+      /* background-color: #f4f4f2; */
+      margin-top: 20px auto;
+    }
+    #time-Taken{
+      font-size: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Test your Reactions</h1>
+  <h3>Click on the boxes and circles as quickly as you can</h3>
+  <p style="font-weight:bold; font-size: 30px;">Time taken by you is :
+    <span id="time-Taken"></span>
+  </p>
+
+  <div id="bgc">
+    <div id="generation"></div>
+  </div>
+  <script src="/Assignments/reaction tester/reaction tester.js"></script>
+</body>
+
+</html>
